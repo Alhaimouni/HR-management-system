@@ -1,8 +1,89 @@
 'use strict';
 
+const allEmployees=[];
+
+
+function Employee(id,name,dep,level)
+{
+this.id=id;
+this.name=name;
+this.department=dep;
+this.level=level;
+this.salary=this.netSalary();
+allEmployees.push(this);
+}
+
+Employee.prototype.salaryWithoutTax= function()
+{  
+    let sal;
+    if(this.level = "Senior") {sal =Math.floor(Math.random()*(2000-1500+1)+1500);}
+    if(this.level = "Mid-Senior") {sal =Math.floor(Math.random()*(1500-1000+1)+1000);}
+    if(this.level = "Junior") {sal = Math.floor(Math.random()*(1000-500+1)+500) ;}
+    return sal;
+}
+
+Employee.prototype.netSalary = function()
+{
+    return this.salaryWithoutTax()*0.925;
+}
+
+let E1 = new Employee(1000,"Ghazi Samer","Administration","Senior");
+let E2 = new Employee(1001,"Lana Ali","Finance","Senior");
+let E3 = new Employee(1002,"Tamara Ayoub","Markiting","Senior");
+let E4 = new Employee(1003,"Safi Walid","Administration","Mid-Senior");
+let E5 = new Employee(1004,"Omar Zaid","Development","Senior");
+let E6 = new Employee(1005,"Rana Saleh","Development","Junior");
+let E7 = new Employee(1006,"Hadi Ahmad","Finance","Mid-Senior"); 
+
+
+for(let i=0 ;i<allEmployees.length;i++)
+{
+
+document.write("Employee name   : "+ allEmployees[i].name + "<br>" +"Salary   : "+ allEmployees[i].salary+"JD");
+document.write("<hr></hr>");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //============================================ Starting ============================================//
 
-const allEmp =[];
+
+/*const allEmp =[];
 
 function Employee(id,name,dep,level)
 {
@@ -38,3 +119,4 @@ for(let i=0 ;i<allEmp.length;i++)
 {
 console.log(allEmp[i]);
 }
+*/
