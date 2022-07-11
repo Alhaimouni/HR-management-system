@@ -19,3 +19,35 @@ width: 150px;}
  border-style:groove ;
 }
 
+.cd
+{
+
+background-image: url(https://t4.ftcdn.net/jpg/03/83/39/01/360_F_383390104_aTxmmJEIcGe4bPfYjR8lZLcPx5Duc0Y2.jpg);
+background-size: 100%;
+font-style: unset;
+text-decoration: double;
+font-size: x-small;
+font-family:'Times New Roman', Times, serif;
+width: 1px;
+height: 1px;
+table-layout:unset;
+border: 100px;
+
+}
+
+
+.cdd
+{
+
+background-image: url(https://t4.ftcdn.net/jpg/03/83/39/01/360_F_383390104_aTxmmJEIcGe4bPfYjR8lZLcPx5Duc0Y2.jpg);
+background-size: 1000%;
+font-style: unset;
+text-decoration: double;
+font-size: x-small;
+font-family:'Times New Roman', Times, serif;
+width: 1px;
+height: 1px;
+table-layout:unset;
+border: 100px;
+
+}
