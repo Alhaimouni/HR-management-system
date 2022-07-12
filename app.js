@@ -18,9 +18,9 @@ allEmployees.push(this);
 Employee.prototype.salaryWithoutTax= function()
 {  
     let sal;
-    if(this.level = "Senior") {sal =Math.floor(Math.random()*(2000-1500+1)+1500);}
-    if(this.level = "Mid-Senior") {sal =Math.floor(Math.random()*(1500-1000+1)+1000);}
-    if(this.level = "Junior") {sal = Math.floor(Math.random()*(1000-500+1)+500) ;}
+    if(this.level == "Senior") {sal =Math.floor(Math.random()*(2000-1500+1)+1500);}
+    if(this.level == "Mid-Senior") {sal =Math.floor(Math.random()*(1500-1000+1)+1000);}
+    if(this.level == "Junior") {sal = Math.floor(Math.random()*(1000-500+1)+500) ;}
     return sal;
 }
 
