@@ -4,50 +4,40 @@ h1
     text-align: center;
 }
 body{background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v960-ning-30.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=63dd5f402645ef52fb7dfb592aec765a); background-repeat: no-repeat;
-    background-size: 30000px 3000px;}
+    background-size: cover; background-attachment: fixed;}
 
-main{text-align: center;}
 #a123{font-size: x-large;}
 nav{background-color: rgba(254, 240, 240, 0.656);}
-#me{height: 100px ;
-width: 150px;}
 
-#meoww
-{
- width: 20px;
- height: 20px;
- border-style:groove ;
-}
 
-.cd
-{
-
-background-image: url(https://t4.ftcdn.net/jpg/03/83/39/01/360_F_383390104_aTxmmJEIcGe4bPfYjR8lZLcPx5Duc0Y2.jpg);
+.cd {
 background-size: 100%;
-font-style: unset;
-text-decoration: double;
-font-size: x-small;
-font-family:'Times New Roman', Times, serif;
-width: 1px;
-height: 1px;
-table-layout:unset;
-border: 100px;
+}
+
+.cdd {
+background-size: 1000%;
+margin-top: -10px
+}
+
+.cd,.cdd {
+    background-image: url(https://t4.ftcdn.net/jpg/03/83/39/01/360_F_383390104_aTxmmJEIcGe4bPfYjR8lZLcPx5Duc0Y2.jpg);
+    display: block;
+    text-align: center;
+    border: 2px rgba(50, 50, 50, 0.499) double;
+    
+    width: 500px;
+    font-style: unset;
+    font-size: x-small;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#dev,#fin,#adm,#mar {
+
+text-align: center;
 
 }
 
-
-.cdd
-{
-
-background-image: url(https://t4.ftcdn.net/jpg/03/83/39/01/360_F_383390104_aTxmmJEIcGe4bPfYjR8lZLcPx5Duc0Y2.jpg);
-background-size: 1000%;
-font-style: unset;
-text-decoration: double;
-font-size: x-small;
-font-family:'Times New Roman', Times, serif;
-width: 1px;
-height: 1px;
-table-layout:unset;
-border: 100px;
-
+#fot {
+    background-color: rgba(25, 22, 22, 0.562);
+    padding: 15px;
 }

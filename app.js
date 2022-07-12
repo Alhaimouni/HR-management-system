@@ -36,7 +36,7 @@ let E4 = new Employee(1003,"Safi Walid","Administration","Mid-Senior","./assets/
 let E5 = new Employee(1004,"Omar Zaid","Development","Senior","./assets/Omar.jpg");
 let E6 = new Employee(1005,"Rana Saleh","Development","Junior","./assets/Rana.jpg");
 let E7 = new Employee(1006,"Hadi Ahmad","Finance","Mid-Senior","./assets/Hadi.jpg"); 
-let E8 = new Employee(666,"Mohammad jihad","Development","Junior","./assets/12096.jpg");
+
 
 Employee.prototype.employeeData = function()
 {
@@ -82,6 +82,7 @@ Employee.prototype.employeeData = function()
     divPlace.appendChild(card);
     pic.setAttribute("class","cd");
     dat.setAttribute("class","cdd");
+    card.setAttribute("class","card");
     //========================================================== With Out Table ===========================================================//
 
     /* divPlace.appendChild(addImgElement);
@@ -89,10 +90,10 @@ Employee.prototype.employeeData = function()
 };
 
 let divEl = document.getElementsByClassName("od");
-divEl[0].style.cssText ="color:darkblue; font-style: oblique ; border-style: groove ; text-align : left ; border-color : gray";
-divEl[1].style.cssText ="color:darkblue; font-style: oblique ; border-style: groove ; text-align : left; border-color : gray";
-divEl[2].style.cssText ="color:darkblue; font-style: oblique ; border-style: groove ; text-align : left; border-color : gray";
-divEl[3].style.cssText ="color:darkblue; font-style: oblique ; border-style: groove ; text-align : left; border-color : gray";
+divEl[0].style.cssText ="color:darkblue; font-style: oblique ; border-style: none none  groove; text-align : left ; border-color : gray";
+divEl[1].style.cssText ="color:darkblue; font-style: oblique ; border-style: none none groove; text-align : left; border-color : gray";
+divEl[2].style.cssText ="color:darkblue; font-style: oblique ; border-style: none none groove; text-align : left; border-color : gray";
+divEl[3].style.cssText ="color:darkblue; font-style: oblique ; border-style: none none groove; text-align : left; border-color : gray ";
 
 function render()
 {
